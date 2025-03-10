@@ -2,6 +2,8 @@
 
 A modern Python application for extracting text from images and PDF documents using Mistral AI's OCR capabilities and enabling document Q&A with Google's Gemini models.
 
+![UI Screenshot](Other/UI%20Screenshot.png)
+
 ## Overview
 
 OCR Processor is a powerful document processing application that combines OCR (Optical Character Recognition) with RAG (Retrieval-Augmented Generation) to enable users to extract text from documents and have interactive conversations about their content.
