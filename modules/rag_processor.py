@@ -6,7 +6,7 @@ from pathlib import Path
 import google.generativeai as genai
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import ConversationalRetrievalChain
 import PyPDF2
@@ -43,7 +43,7 @@ class RAGProcessor:
         
         # Initialize LLM - using the latest Gemini model
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash",  # Updated to the latest model
+            model="gemini-2.0-flash",  # Updated to the latest model
             google_api_key=self.api_key,
             temperature=0.2,
             top_p=0.95,
