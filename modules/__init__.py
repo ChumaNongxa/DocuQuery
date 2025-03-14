@@ -8,4 +8,4 @@ from .ocr_processor import OCRProcessor
 from .rag_processor import RAGProcessor
 from .session_manager import SessionManager
 
-__all__ = ['OCRProcessor', 'RAGProcessor', 'SessionManager']
+__all__ = ["OCRProcessor", "RAGProcessor", "SessionManager"]
